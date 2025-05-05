@@ -1,0 +1,354 @@
+{
+    "acquisition_software": "pychron 20.1.1",
+    "aliquot": 43,
+    "analysis_type": "unknown",
+    "analyst_name": "Julia Ricci",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "baseline_modifiers": {
+        "CDD": {
+            "function": "4e-8*x+2e-5",
+            "function_err": "countingstatistics",
+            "variable": "ar40 + ar39"
+        }
+    },
+    "collection_version": "2.0:2.1",
+    "comment": "D:12 DS",
+    "conditionals": [
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": 146927189066596108,
+            "level": 30,
+            "location": "scripts/conditionals/Koning.yaml",
+            "ntrips": 1,
+            "start_count": 30,
+            "teststr": "age>300.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": 2436629994113981465,
+            "level": 30,
+            "location": "scripts/conditionals/Koning.yaml",
+            "ntrips": 1,
+            "start_count": 120,
+            "teststr": "age>70.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": -3379166963350985996,
+            "level": 30,
+            "location": "scripts/conditionals/Koning.yaml",
+            "ntrips": 1,
+            "start_count": 180,
+            "teststr": "age>10.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": -2129432855541834728,
+            "level": 30,
+            "location": "scripts/conditionals/Koning.yaml",
+            "ntrips": 1,
+            "start_count": 90,
+            "teststr": "age>125.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 2,
+            "hash_id": 1967009443496859291,
+            "level": 30,
+            "location": "scripts/conditionals/Koning.yaml",
+            "ntrips": 1,
+            "start_count": 15,
+            "teststr": "Ar39<1.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": -1054668255196987827,
+            "level": 30,
+            "location": "scripts/conditionals/Koning.yaml",
+            "ntrips": 1,
+            "start_count": 3,
+            "teststr": "Ar40>5000.0"
+        },
+        {
+            "analysis_types": [
+                "blank_air",
+                "unknown",
+                "air",
+                "cocktail",
+                "ic",
+                "blank_unknown",
+                "blank_cocktail",
+                "blank"
+            ],
+            "frequency": 5,
+            "hash_id": 6599673687836740519,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "H1.bs<-15.0"
+        },
+        {
+            "analysis_types": [
+                "cocktail"
+            ],
+            "frequency": 5,
+            "hash_id": 2058742138991448067,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 20,
+            "teststr": "Ar40<500.0"
+        },
+        {
+            "analysis_types": [
+                "air"
+            ],
+            "frequency": 5,
+            "hash_id": 8062754531134727015,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 20,
+            "teststr": "Ar40<20.0"
+        },
+        {
+            "analysis_types": [
+                "air",
+                "unknown",
+                "cocktail",
+                "ic",
+                "blank_unknown",
+                "blank_air",
+                "blank_cocktail",
+                "blank"
+            ],
+            "frequency": 10,
+            "hash_id": -2912912524906295132,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 0,
+            "teststr": "Ar36.bs_corrected>10.0"
+        },
+        {
+            "analysis_types": [
+                "air"
+            ],
+            "frequency": 5,
+            "hash_id": 7015668491380190255,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 50,
+            "teststr": "between(Ar40/Ar36,285.0,305.0)"
+        },
+        {
+            "analysis_types": [
+                "ic"
+            ],
+            "frequency": 5,
+            "hash_id": -3654498406247797979,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 75,
+            "teststr": "Ar36.bs_corrected<0.01"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 5,
+            "hash_id": -7230084812916781365,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 75,
+            "teststr": "Ar36.bs_corrected<0.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 3,
+            "hash_id": -76403365235335838,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "Ar40.bs_corrected>49500.0"
+        }
+    ],
+    "data_collection_commit": "2631dcfbe546883e2d19014072160359ed033f8e",
+    "data_reduction_software": "pychron 20.1.1",
+    "detectors": {
+        "AX": {
+            "deflection": 75.0,
+            "gain": 0.9737029
+        },
+        "CDD": {
+            "deflection": 275.0,
+            "gain": 0.0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 1.0
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1.78
+        },
+        "L1": {
+            "deflection": 150.0,
+            "gain": 1.035
+        },
+        "L2": {
+            "deflection": 300.0,
+            "gain": 1.04962
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2025-05-05T08:23:05",
+                "title": "iServer Hum.",
+                "value": 37.2
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2025-05-05T08:40:21",
+                "title": "Building",
+                "value": 97.6
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2025-05-05T07:50:15",
+                "title": "Lab",
+                "value": 100.0
+            },
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2025-05-05T00:54:10",
+                "title": "Jan Decabin",
+                "value": 2.9
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2025-05-05T08:39:10",
+                "title": "iServer Temp.",
+                "value": 69.8
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2025-05-05T08:05:12",
+                "title": "Coolant",
+                "value": 16.0
+            }
+        ]
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "experiment_type": "Ar/Ar",
+    "extraction": "jan_co2.py",
+    "grainsize": "",
+    "hops": "",
+    "identifier": "72326",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-347",
+    "irradiation_level": "D",
+    "irradiation_position": 12,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "cdd",
+            "units": "fA"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "thermo13",
+            "units": "fA"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "b21",
+            "units": "fA"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "thermo13",
+            "units": "fA"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "thermo13",
+            "units": "fA"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41",
+            "serial_id": "b42",
+            "units": "fA"
+        }
+    },
+    "laboratory": "",
+    "latitude": null,
+    "lithology": "",
+    "lithology_class": null,
+    "lithology_group": null,
+    "lithology_type": null,
+    "longitude": null,
+    "mass_spectrometer": "Jan",
+    "material": "DetritalSanidine",
+    "measurement": "jan_SyncExt_480_NC.py",
+    "meta_commit": "e1b995eb6e5e5dc96c7ce17a13ae728ea8a91805",
+    "note": null,
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "Koning, D",
+    "project": "Koning",
+    "queue_conditionals_name": "---",
+    "repository_identifier": "Koning",
+    "rlocation": "",
+    "sample": "EB-80-djk",
+    "source": {
+        "emission": 335.39,
+        "trap": 198.483
+    },
+    "spec_sha": "d9106358a0a01930a29621533157bcf051b91587",
+    "time_zero_timestamp": "2025-05-05T08:40:19.939242",
+    "timestamp": "2025-05-05T08:44:14.252529",
+    "tripped_conditional": {
+        "context": "{'age': 33.714895694353984}",
+        "hash_id": -3379166963350985996,
+        "teststr": "age>10.0"
+    },
+    "unit": "",
+    "username": "Julia Ricci",
+    "uuid": "3f9daf47-f5f0-4d42-bace-cadf3b461211",
+    "whiff_result": null
+}
