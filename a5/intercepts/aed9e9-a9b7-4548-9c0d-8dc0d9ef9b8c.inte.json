@@ -1,57 +1,132 @@
 {
     "Ar36": {
-        "error": 0.0005057348326401231,
+        "error": 0.0005752519382877431,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
-            "iterations": 2,
-            "std_devs": 2
+            "iterations": 1,
+            "std_devs": 3,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
         "fit": "linear",
-        "value": 0.14423188301431172
+        "fn": 340,
+        "include_baseline_error": true,
+        "n": 340,
+        "outlier_excluded": [],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 0.14400635519507
     },
     "Ar37": {
-        "error": 0.006247550680921059,
+        "error": 0.007306723857645516,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
-            "iterations": 2,
-            "std_devs": 2
+            "iterations": 1,
+            "std_devs": 3,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
         "fit": "linear",
-        "value": 0.6775220144297902
+        "fn": 339,
+        "include_baseline_error": true,
+        "n": 340,
+        "outlier_excluded": [
+            339
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 0.6751956111124114
     },
     "Ar38": {
-        "error": 0.0009992277634116294,
+        "error": 0.0012025077986665144,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
-            "iterations": 2,
-            "std_devs": 2
+            "iterations": 1,
+            "std_devs": 3,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
         "fit": "linear",
-        "value": 0.7435912575273925
+        "fn": 339,
+        "include_baseline_error": true,
+        "n": 340,
+        "outlier_excluded": [
+            326
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 0.7441935919563181
     },
     "Ar39": {
-        "error": 0.01091054367860473,
+        "error": 0.011274356349326897,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
-            "iterations": 2,
-            "std_devs": 2
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
         "fit": "linear",
-        "value": 51.775293521416934
+        "fn": 328,
+        "include_baseline_error": true,
+        "n": 340,
+        "outlier_excluded": [
+            228,
+            165,
+            102,
+            7,
+            166,
+            201,
+            324,
+            235,
+            13,
+            83,
+            147,
+            339
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 51.777704076872865
     },
     "Ar40": {
-        "error": 0.016745101836911597,
+        "error": 0.033472018781413974,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
-            "iterations": 2,
-            "std_devs": 2
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
-        "fit": "linear",
-        "value": 96.28905764429621
+        "fit": "parabolic",
+        "fn": 323,
+        "include_baseline_error": true,
+        "n": 340,
+        "outlier_excluded": [
+            128,
+            225,
+            164,
+            228,
+            166,
+            262,
+            201,
+            43,
+            204,
+            78,
+            338,
+            83,
+            84,
+            53,
+            339,
+            123,
+            191
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 96.29384362577686
     }
 }
